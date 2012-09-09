@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -126,11 +126,11 @@
 <plain>
 <wire x1="0" y1="117" x2="0" y2="3" width="0" layer="20"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="3" y1="0" x2="247" y2="0" width="0" layer="20"/>
-<wire x1="247" y1="0" x2="250" y2="3" width="0" layer="20" curve="90"/>
-<wire x1="250" y1="3" x2="250" y2="117" width="0" layer="20"/>
-<wire x1="250" y1="117" x2="247" y2="120" width="0" layer="20" curve="90"/>
-<wire x1="247" y1="120" x2="3" y2="120" width="0" layer="20"/>
+<wire x1="3" y1="0" x2="249" y2="0" width="0" layer="20"/>
+<wire x1="249" y1="0" x2="252" y2="3" width="0" layer="20" curve="90"/>
+<wire x1="252" y1="3" x2="252" y2="117" width="0" layer="20"/>
+<wire x1="252" y1="117" x2="249" y2="120" width="0" layer="20" curve="90"/>
+<wire x1="249" y1="120" x2="3" y2="120" width="0" layer="20"/>
 <wire x1="3" y1="120" x2="0" y2="117" width="0" layer="20" curve="90"/>
 <wire x1="175" y1="120" x2="175" y2="0" width="0" layer="51"/>
 <hole x="5" y="5" drill="3.2"/>
@@ -189,11 +189,12 @@
 <hole x="155.5" y="-116" drill="3.2"/>
 <hole x="135.5" y="-36" drill="3.2"/>
 <hole x="155.5" y="-36" drill="3.2"/>
-<hole x="245" y="5" drill="3.2"/>
-<hole x="245" y="115" drill="3.2"/>
-<hole x="245" y="60" drill="3.2"/>
-<hole x="190" y="115" drill="3.2"/>
-<hole x="190" y="5" drill="3.2"/>
+<hole x="247" y="5" drill="3.2"/>
+<hole x="247" y="115" drill="3.2"/>
+<hole x="247" y="60" drill="3.2"/>
+<hole x="192" y="115" drill="3.2"/>
+<hole x="192" y="5" drill="3.2"/>
+<wire x1="177" y1="120" x2="177" y2="0" width="0" layer="21"/>
 </plain>
 <libraries>
 </libraries>
